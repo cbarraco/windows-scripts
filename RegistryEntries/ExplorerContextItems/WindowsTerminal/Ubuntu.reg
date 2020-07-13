@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\WindowsTerminal]
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\WindowsTerminal\shell]
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\WindowsTerminal\shell\openubuntu]
+"MUIVerb"="Open Ubuntu &here"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\WindowsTerminal\shell\openubuntu\command]
+@="C:\\Users\\Carlo\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe -d \"%w\" -p Ubuntu"
+
+[HKEY_CLASSES_ROOT\Directory\shell\WindowsTerminal]
+"MUIVerb"="&Windows Terminal"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\WindowsTerminal"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WindowsTerminal]
+"MUIVerb"="&Windows Terminal"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\WindowsTerminal"
+
