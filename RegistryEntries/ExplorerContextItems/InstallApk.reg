@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.apk\shell\InstallApk]
+@="&Install on Android Device"
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\.apk\shell\InstallApk\command]
+@="C:\\Windows\\System32\\cmd.exe /C \"adb install \"\"%V\"\"\""
