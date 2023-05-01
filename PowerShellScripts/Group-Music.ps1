@@ -1,3 +1,7 @@
+<#
+    .SYNOPSIS
+        Moves music files into a folder structure based on the metadata of the files.
+#>
 [CmdletBinding()]
 param (
     [Parameter(Mandatory = $false)]
